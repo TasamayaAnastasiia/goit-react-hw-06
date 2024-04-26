@@ -1,0 +1,26 @@
+.li {
+    background-color: #303338;
+    border-radius: 5px;
+    padding: 5px;
+    width: 223px;
+    transition: transform;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+.li:hover {
+    transform: scale(1.04);
+    color: red;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
